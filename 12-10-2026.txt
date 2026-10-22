@@ -1,0 +1,33 @@
+Sprint - 1
+FAPI_004:Document Classification text is not displayed(added click through javascript executor step in stepgroup)-sakthi is looking into it 
+FAPI_013: Did Not Scroll till Common Edit charges icon-sakthi is looking into it
+
+
+Sprint - 2
+FAPI_023:Disabled Steps and added Stepgroup Changed Element xpath-Passed
+FAPI_030: Did Not Scroll till Actions dropdown(Added Hard Wait)- Passed
+FAPI_033: Failed to click on Finance link(Added Hard Wait)
+FAPI_034: Common Dispute History text is not found(Added Hard Wait)
+FAPI_037:Common report for option is not visible(Added Hard Wait,Used Javascript Executor)
+
+
+API Testing
+429-Too many Requests---handle using hard waits
+
+
+let xpath = "//*[@controlname='reportType']//*[@aria-label='dropdown trigger']";
+let element = document.evaluate(
+    xpath,
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+).singleNodeValue;
+
+if (element) {
+    element.scrollIntoView({block: "center"});
+    element.click();
+    console.log("CASH clicked");
+} else {
+    console.log("CASH option not found");
+}

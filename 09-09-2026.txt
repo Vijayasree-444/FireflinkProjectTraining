@@ -1,0 +1,17 @@
+Sprint - 1
+FAPI_013:elements are disabled Could not handle for now
+FAPI_018:Disabled Infusion and got text from status header 
+
+Sprint - 2
+FAPI_031:Actions dd Is Not Visible(Skipped)
+FAPI_032:Particular Tick icon Is Not Visible(Passed Twice)
+FAPI_033:Actions dropdown Is Not Visible
+FAPI_034: Verify Searched Job No Is Displayed in the table Step Group failed
+FAPI_037:
+
+
+
+If (460!="Pending Review (460)") 
+
+
+"Pending Review (460)"!=460

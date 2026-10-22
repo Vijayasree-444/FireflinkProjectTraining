@@ -1,0 +1,23 @@
+
+Sprint - 3
+
+FAPI_042:No of links found '0' couldnt not click on pending review link--Added Syncronization Steps
+FAPI_052:Searched Job no Is not found (8978 19/10/2026--Same Record Is Reflecting)--Added Syncronization Steps
+FAPI_056:Entered docNo but did not find the record--Added Syncronization Steps
+FAPI_057:Entered Job No But It Not Find The Common Select Option--Added Syncronization Steps
+FAPI_059:After Cliking On First Id link It Switched To Second Tab But The Infusion Status Is Not Green so Approved Text is not displayed--Added Syncronization Steps
+FAPI_060:Processed Status text is not displayed instead Cancelled Status text is displayed--Added Syncronization Steps
+FAPI_062:Search button in Party page is Not clickable--Added Syncronization Steps
+FAPI_053:Entered docNo but did not find the record--Added Syncronization Steps
+FAPI_065:Clicked on Yes button But Its Showing "Few records failed to update!
+Failed to Updated :1 records
+Successfully Updated : 0 records" Message--Added Syncronization Steps
+
+Sprint - 5
+FAPI_101:--Search and Load the Account payables Sepgroup is failed as Apply button is not visible-Modified Xpath,Added Javascript code --Added Syncronization Steps
+FAPI_102:Entered Job Into AR Invoice Num Tf But Search Button is Disabled--Added Syncronization Steps
+FAPI_103:Unable To Find This xpath = (//strong[@class="ng-star-inserted"])[2]--Added Syncronization Steps
+FAPI_109:Job Assign Text Is Not Clicking--Added Syncronization Steps
+FAPI_158:Entered docNo but did not find the record--Added Syncronization Steps
+FAPI_156:--Added Syncronization Steps
+FAPI_159:--Added Syncronization Steps

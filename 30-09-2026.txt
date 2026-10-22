@@ -1,0 +1,61 @@
+Client Name:Ascend asia
+Application Name:EKYC
+
+Every Element Has unique ID In The Application Each Page Has A Lot Of Forms And Elements 
+
+Features In The App:
+1.life insurance 
+2.health insurance 
+3.investments
+
+Expectations
+data driven approach(Excel)
+
+1. static data -- MR Or MRS
+2.Dynamic Data --FormID (WrtBack)
+Write Back Imp Details Like FormId To The TestData
+
+Color coding -- Recognization, We will Follow Internally So That u WIll Be ABle TO uNDERSTAND Better 
+yellow - Inputs
+Blue-Writeback
+Orange -Verification
+
+Store The Data In The Drive
+
+Step groups Appoaches
+1.one Step Group for all Forms 
+2.One Step Group For Each Form
+
+CRUD -- If We Are Creating Anything In The Script Make Sure to Clear It At The End Of The Script.
+
+Captcha For Arithematic Operation --- Get text From Captcha, Use Substring to Get the Digits and Use Conversion To Convert Into Integers Perform Operation
+
+Domains Specific:
+logistics
+b2b b2c
+healthcare
+ecommerce
+HRM
+CRM
+
+Fireflink demonstration
+
+
+ 
+Project - Multichannel(All NLPS)
+Repo -- Structure
+Variable - CamelCasing
+isclickable For Synchronization Issues
+Scripts No Hard Waits And Delay Between Steps
+Not Use FireFlink Finder
+Write Xpaths Generic
+Optimized Scripts
+Stepgroups 
+Parametrized StepGroups
+
+
+
+
+
+
+

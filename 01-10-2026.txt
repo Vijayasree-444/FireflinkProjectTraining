@@ -1,0 +1,41 @@
+Suite Failure Reason:
+Sprint 1
+FAPI_018:Entered 8 Digit Invoice Number into AP Invoice Search textfield But Failed To Search For That 8 Digit Invoice Number (Passed)
+FAPI_004:Clicked on Doc Classified Text, Document Classification Text In Process Page Is Not Displayed(Passed)
+FAPI_008:After Clicking On Common Select option, joh has already added popup Is Not Displayed
+FAPI_010:Clicked On Budget Matching status But Budget Matching Status Is Not Found 
+FAPI_013:Clicked On Edit Payables Button But Did Not Scroll Until Common Edit charges Is Visible
+
+Sprint 2
+FAPI_029: Clicked On Proceed with supplier invoice button But Invoice Approved Text Is Not Displayed
+FAPI_032:Clicked On Terms dropdown But Did Not Click On Terms Select option
+FAPI_033:Switched To Third Tab In The Browser But Dispute History text Is Not Displayed
+FAPI_034: 1.Dispute Type text Does Not Contain Full Amount , 2. Common Dispute History Element Is Not Found
+FAPI_035A:Swtiched To Second Tab But Currency Wrong icon Is Not Displayed
+FAPI_037: 1.Clicked On Report For DropDown But Common Report For Option Is Not Displayed , 2.Clicked On Group By DropDown But Common Report For Option Is Not Displayed 
+FAPI_038: MergeTwoPdf has passed But Failed To Fetch The Data From Excel-Unique Data Is Not Found
+
+Sprint 6
+FAPI_114:Text Is Cleared And Entered 8Digit Number Into AP Invoice Search textfield But Job Assignment Status Is Not Visible,
+FAPI_116:Text Is Cleared And Entered 8Digit Number Into AP Invoice Search textfield But First ID link Is Not Displayed, FAPI_118:Entered Characters Into AP Invoice Search textfield But First ID Link Is Not Visible. FAPI_115,FAPI_129,FAPI_130,FAPI_131
+FAPI_117:1.Text Is Cleared And Entered 8Digit Number Into AP Invoice Search textfield But First ID link Is Not Clickable 2.Did Not Click On First ID Link 3.Swtiched To Second Tab And Fetched All Session IDS But Failed To Fetch The Value At Index 4.ob No Details Is Not Clickable
+FAPI_128:Navigated to AP Invoice But First ID Link Is Not Visible , FAPI_127 ,FAPI_126,FAPI_128
+FAPI_129:1.Failed to write AlphanNumeric Data to cell for uniqueData and header Container Number, 2.Failed to fetch data from a single row table as a map for given uniqueData
+FAPI_119:Fetched current system date In DD Format But Did Not Click On Enabled Date text
+FAPI_122:Clicked On Download button But File Download is completed popup Is Not Displayed
+FAPI_124:Waited For Common Select Option To Be Clickable But Failed To Click On Common Select option
+FAPI_125: AP Review Status text is not displayed But Failed To Click On Forward Count button And Failed to click on Selected Date AP Review link
+FAPI_134:Actions Drop Down Is Not Visible,Entered 8Digit Number Into AP Invoice Search textfield But First ID link Is Not Displayed , FAPI_135
+FAPI_132:Entered 8Digit Number Into AP Invoice Search textfield But Pending Review Status text Is Not Visible And Failed To Click On First ID Link,FAPI_133
+FAPI_136:Clicked On Terms DropDown But Terms Select option Is Not Visible , FAPI_137
+FAPI_138:Navigated to AP Invoice But Could Not Fetch The Text From First Invoice Number
+FAPI_144:Clicked on Create button But Export Order created successfully popup Is Not Displayed And Could Not Fetch The Text From Export Job No text
+FAPI_146:Clicked On Search button But First Payables No link Is Not Displayed
+
+
+
+
+
+
+ 
+

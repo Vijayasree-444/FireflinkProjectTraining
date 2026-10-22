@@ -1,0 +1,11 @@
+Sprint - 1
+FAPI_018:Modified Script(Passed)
+
+Sprint - 2
+FAPI_031:Pending Review Status Text Is Not Displayed(Added Explicit waits After Disabling The Hard Waits)Passed
+FAPI_032:Particular Tick Icon Is Not Displayed(Added Explicit waits After Disabling The Hard Waits)Passed
+FAPI_033:Dispute History Text Is Not Visible(Added Explicit waits After Disabling The Hard Waits And Modified Script)(Not Passed)
+FAPI_034:Proceed With Invoice Button is Not Displayed
+FAPI_037:Clicked On Report DropDown but Common Report Option is Not Displayed
+FAPI_038:Unique data: FAPI_038 is not found
+

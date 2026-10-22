@@ -1,0 +1,84 @@
+=============================================================================================
+Sprint - 1
+=============================================================================================
+FAPI_016:B251300926 is entered but it did not sort out a single record
+
+FAPI_003: Billing and Payable - Copy is failed , save payable button is not clickable
+
+FAPI_008:Did not fetch Text from 'Particular Mathched Job No text'
+
+FAPI_009:Job added successfully popup is not displayed
+
+FAPI_010:Clicked On Budget Matching Link but Budget Matching Status Text Is Not Displayed
+
+FAPI_012:Budget Match Check Is Not Displayed As It Is In Ap Review Page
+
+Match Budget screen - Copy 3 Billing and Payable - Copy is failed,Did Not Click On Charges Add button 
+
+FAPI_013:Did Not Scroll Untill Common Edit charges icon
+
+==============================================================================================
+Sprint - 2
+==============================================================================================
+FAPI_023:Failed To Switch To Second Tab 
+
+FAPI_029:Failed To Switch To Second Tab and Did Not CLick on Cancel button
+
+FAPI_033:FAiled To Click On Actions Dropdown 
+
+FAPI_034:Confirm Invoice Processing is not displayed
+
+FAPI_035A:Currency Wrong icon is not displayed
+
+
+==============================================================================================
+Sprint - 6
+==============================================================================================
+FAPI_153:I/C Payable created successfully popup is not displayed
+FAPI_138:Common Result text Is Not Displayed in AP-Invoice AI-processing Page
+FAPI_137:Did not CLick On Dept Id dropdown,Common Validation Text and also failed to Click On SearchButton In Admin page
+FAPI_136:Did not Click On Dept Id dropdown in Account Receivables page
+FAPI_133:Billing and Payable - Copy is failed , save payable button is not clickable---Did not click on Finance link 
+FAPI_132:Did not fetch the text from Currency in EGS text in Total Invoices page
+
+==============================================================================================
+Sprint - 5
+==============================================================================================
+
+FAPI_159:Creation of a match budgeting Record from imports - Copy(Step group) is failed in that Invoice No Is Entered is but it did not sort out a single record So First Id Link Did not get clicked
+
+
+FAPI_156:Creation of a match budgeting Record from imports(Step group) is failed in that Common Result text in Total Invoices page is not displayed
+
+
+FAPI_158:Billing and Payable - Copy is failed , save payable button is not clickable and did not click on Secondary Save button
+
+FAPI_157: Entered Invoice no into AP Invoice Search textfield but did not sort out single record so Pending Review Status is not displayed
+
+
+FAPI_155:Entered Invoice no into AP Invoice Search textfield but No Records Found so Pending Review Status is not displayed
+
+
+FAPI_110:Failed to Enter Job no Into Search by Job No Details textfield in AP-Invoice AI-processing Page
+
+
+
+========================================================================================================================================================
+Sprint 5 
+FAPI_095---Added Explicit conditions
+FAPI_096---Added Explicit conditions
+FAPI_097---Added Explicit conditions
+FAPI_100---Added Explicit conditions
+FAPI_101---Added Explicit conditions
+
+(//*[@class='p-checkbox-box p-component'])[{Dynamic Val1}]
+
+
+
+
+
+
+
+
+
+

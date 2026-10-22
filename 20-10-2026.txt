@@ -1,0 +1,77 @@
+Sprint - 5
+FAPI_156:Entered docNumber But Records Did not get sorted out---Added Syncronization
+FAPI_159:Entered docNumber But Records Did not get sorted out---Added Syncronization
+
+API Testing For Expansive Project :
+Created 2 Scripts
+Worked On Different Scenarios 
+
+github/gitBash:
+Learned Git Bash Commands
+
+
+https://aqa.expansive.dev/api/access_token?email=efm.admin@expansive.co.uk&password=zpu8HWX4pvh*nkh4jmk&name=Andy Ashworth [Admin]
+
+
+Expansive Standard CurlCommand:
+curl --location 'https://aqa.expansive.dev/api/v2/uncaptured-spends' \
+ --header 'Cache-Control: no-cache' \
+ --header 'User-Agent: FireFlink/1.0' \
+ --header 'Accept: */*' \
+ --header 'Accept-Encoding: gzip, deflate' \
+ --header 'Connection: keep-alive' \
+ --header 'Authorization: Bearer 9044|g0brygOV86vNUNW6vE8KNrAcmTB6IpxQd3q6LGuM83c110ab' \
+ --header 'Content-Type: application/vnd.api+json' \
+ --request 'POST' \
+ --data '{
+    "data": {
+      "type": "uncaptured-spends",
+      "attributes": {
+        "amount": 111,
+        "custom_tax_rate": null,
+        "description": "API Automation Testing From Pradeep",
+        "spent_at": "2026-10-19"
+      },
+      "relationships": {
+        "taxRate": {
+          "data": {
+            "type": "tax-rates",
+            "id": "2"
+          }
+        },
+        "maintainableEntity": {
+          "data": {
+            "type": "maintainable-entities",
+            "id": "5238"
+          }
+        },
+        "costCode": {
+          "data": {
+            "type": "cost-codes",
+            "id": "3"
+          }
+        },
+        "budget": {
+          "data": {
+            "type": "budgets",
+            "id": "14"
+          }
+        },
+        "asset": {
+          "data": {
+            "type": "assets",
+            "id": "515"
+          }
+        },
+        "contractor": {
+          "data": {
+            "type": "contractors",
+            "id": "1"
+          }
+        }
+      },
+      "files": []
+    }
+  }' 
+
+

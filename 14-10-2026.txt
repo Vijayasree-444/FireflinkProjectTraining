@@ -1,0 +1,60 @@
+Sprint - 1
+FAPI_006:Its Not Clicking On FirstID Link --Shakthi Is Looking into It-Shakthi is Looking Into it(Passed)
+FAPI_007:Date not matching todays date Did not click on first Id link-Shakthi is Looking Into it(Passed)
+FAPI_013:-Shakthi is Looking Into it(Passed)
+match Budget Screen Copy-2: Passed Twice In Script level --No Modifications(Passed)
+
+
+Sprint - 2
+FAPI_031:No Links Present --- (Passed)
+FAPI_032:Used Javascript Executor To scroll Till element is visible--(Passed)
+FAPI_033:Not Clicking On Arrow Id(Fail)
+FAPI_034:No Modifications (Passed)
+FAPI_037:Modified Xpath,added three sec hard wait --- (Passed)
+
+Sprint
+
+
+8403
+
+let xpath = "//span[normalize-space()='Job Details']/../..//input";
+let element = document.evaluate(
+    xpath,
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+).singleNodeValue;
+
+if (element) {
+    element.scrollIntoView({block: "center"});
+    element.click();
+    console.log("CASH clicked");
+} else {
+    console.log("CASH option not found");
+}
+
+
+
+let el = document.evaluate(
+  "//*[normalize-space()='Line Items']",
+  document,
+  null,
+  XPathResult.FIRST_ORDERED_NODE_TYPE,
+  null
+).singleNodeValue;
+
+if (el) {
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  el.dispatchEvent(new MouseEvent("click", {
+    bubbles: true,
+    cancelable: true,
+    view: window
+  }));
+
+
+
+
+2619205968
+83609181
+}

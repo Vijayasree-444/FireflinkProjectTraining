@@ -1,0 +1,25 @@
+Sprint-1
+FAPI_013:Added Explicit waits For Failed Step And Added new Element And Used That Element In The script(Match Budget Status)Passed
+
+Sprint-2
+
+FAPI_030:Pending Review Status Text Is not Visible(Added Explicit waits and Disabled Hard Waits, Refresh Browser)Passed
+FAPI_033:Page no text is Not Visible Did Not Click on First ID Generic Link(Added Explicit Waits)
+FAPI_034: Proceed with Invoice Button Is Not Displayed
+FAPI_037 :Common Report For option Is Not Found
+FAPI_038:Issues With Test Data (Step No.40 Failed) Passed
+
+
+
+
+
+Desktop Testing
+Desktop:Open Application
+{Desired Capabilites Instance, Platform=desktop,App:Path}
+Desktop:Close Application
+
+
+Flutter:
+We Are Not Able To Inspect Any Element In The Application That Type Of Applications Can Be Handled Manually and also Using Fireflink 
+Manuallly: Find For value "Enable Accessability" And Copy That JS Path, Paste It In The Console with click() Then All The Elements Can be Inspected
+Fireflink : Call Enable Flutter Integration NLP

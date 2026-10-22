@@ -1,0 +1,12 @@
+Suites 
+
+Sprint - 1
+FAPI_001:Clicked On Cancelled link But Cancelled Status text Is Not Displayed(Passed In Script Level) 
+FAPI_016:Cleared Text And Entered 10 Digit Number Into AP Invoice Search textfield But AP Review Status text Is Not Visible==(2 Times Passed In Script Level)
+FAPI_019:Cleared Text And Entered 10 Digit Number Into AP Invoice Search textfield But Could Not Click On First Id Link(Passed In Script Level)
+FAPI_008:Clicked On First Job Assign Option But Failed To Fetch The Text From Matched Job text(5 Second Delay Required Cause While Clicking On The Arrow Only ID Is Sorting But Date Is Not Sorting)(3 Second Delay Required Cause Options Are Taking Some Time To Load.No Unique Attribute For The Element)
+FAPI_009:Switched To Second Tab But Failed To Wait Job No Details textfield Is Clickable
+Match Budget screen:Clicked On Add Charge add button But Save payable button Is Not Clickable
+FAPI_005:Clicked On Cancelled link But Cancelled Status text Is Not Displayed
+
+Sprint - 2 

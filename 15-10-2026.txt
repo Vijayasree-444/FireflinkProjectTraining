@@ -1,0 +1,65 @@
+Sprint - 3
+FAPI_039:Create a Transaction Number for Existing Payable Stepgroup failed--Added Syncronization steps--Failed 
+FAPI_042:
+FAPI_044:Changed Date format---Passed
+FAPI_043: Added Syncronization steps and Modified some script 
+FAPI_050:Actions Dropdown Not Visible---Failed
+FAPI_046:Not Clicking On Doc Classified Text---Passed (Added Syncronization Steps)
+FAPI_052: payment term text contains -- '-' Not 15 Days
+
+Sprint - 5
+FAPI_111:Passed In Script Level
+FAPI_103:Ar Total Text Is Not Found
+FAPI_108:Job Assign Text Is Not Clicking
+FAPI_158:Added Synchronization steps
+FAPI_156:
+FAPI_159:
+FAPI_109:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let xpath = "//div[normalize-space()='Assign Vendor']";
+
+let element = document.evaluate(
+    xpath,
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+).singleNodeValue;
+
+if (element) {
+    element.click();
+    console.log("CASH clicked");
+} else {
+    console.log("CASH option not found");
+}
+
+let element = document.evaluate(
+  '//div[@id='actiondd']//*[@role='button']',
+  document,
+  null,
+  XPathResult.FIRST_ORDERED_NODE_TYPE,
+  null
+).singleNodeValue;
+
+if (element) {
+  element.scrollIntoView({ block: "center", behavior: "smooth" });
+  console.log("Scrolled to element");
+} else {
+  console.log("Element not found");
+}
