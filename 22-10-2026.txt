@@ -11,3 +11,16 @@ FAPI_065:
 
 Github / git bash
 Installed and pushed Some Files To The Repository using github commands
+Commands:
+git config --global username.""
+git config --global user.email""
+cd "path of the folder"
+git init
+git remote add origin githuburl
+git add .--will add all files
+git add filename.filetype--will add specific file
+git commit -m "message"
+git status
+git diff
+git branch - m origin main --Mentions Main branch
+git push -u origin main---this will push file inside github
