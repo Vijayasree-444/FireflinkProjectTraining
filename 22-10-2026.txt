@@ -6,3 +6,8 @@ FAPI_060:The Processed Status is Not Found As It Is In Submitted To Fusion Stage
 FAPI_062:
 FAPI_053:
 FAPI_065:
+
+
+
+Github / git bash
+Installed and pushed Some Files To The Repository using github commands
