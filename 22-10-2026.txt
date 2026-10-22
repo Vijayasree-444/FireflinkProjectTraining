@@ -1,0 +1,8 @@
+Sprint - 3
+FAPI_042:Excel Sheet is Missing
+FAPI_052:Payment Term Is Empty
+FAPI_059:If The Invoice Is In the End Stage Then Only The Script Will Pass
+FAPI_060:The Processed Status is Not Found As It Is In Submitted To Fusion Stage
+FAPI_062:
+FAPI_053:
+FAPI_065:
