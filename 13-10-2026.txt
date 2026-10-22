@@ -1,0 +1,54 @@
+Sprint - 1
+FAPI_001:Processed text is not displayed
+FAPI_003:Did not Click On Invoice Summary DropDown (Used Javascript to scroll)-Passed
+
+Sprint - 2
+FAPI_029:No Links Are Visible (Couldn't click on Pending Link) 
+FAPI_030:Modified Script-Passed
+FAPI_032:Particular Tick Icon Not Visible---no changes but got passed in script level--Passed
+FAPI_033:Dispute Type text value attribute doesnt contains amount (Value source is not found coulnt modify it)
+FAPI_034:Dispute history is not present-shakthi is looking into it 
+FAPI_037:Common Report For option is not visible--Cant click on aging report tried javascript(still working on it)
+FAPI_038: Billing and Payable - Copy stepgroup failed -- Passed (No Modifications)
+
+----------------------------------------------Table Xpath-----------------------------------------------------------------
+//*[@class="banner SUBMITTED"]/following-sibling::table//tbody//td[count(//table//thead//th[normalize-space(.)='Amount']/preceding-sibling::th)+1]
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+KT:
+Shadow Root Topic - searchContext --- getshadowroot();
+IOS Automation---
+Xcode
+BundleId
+Path config----1.agent path 2.bootstrap path
+Desired capabilities---version should be same
+ways to Install IPA files
+
+
+
+let xpath = "//span[normalize-space()='Invoice Summary']/..//div[@class='chevron']";
+let element = document.evaluate(
+    xpath,
+    document,
+    null,
+    XPathResult.FIRST_ORDERED_NODE_TYPE,
+    null
+).singleNodeValue;
+
+if (element) {
+    element.scrollIntoView({block: "center"});
+    console.log("CASH clicked");
+} else {
+    console.log("CASH option not found");
+}
+
+
+Javascript let xpath = "//*[@controlname='reportType']//*[@aria-label='dropdown trigger']"; let element = document.evaluate( xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue; if (element) { element.scrollIntoView({block: "center"}); element.click(); console.log("CASH clicked"); } else { console.log("CASH option not found"); } is executed
+
+
+
+Execute javascript let xpath = "//*[@controlname='reportType']//*[@aria-label='dropdown trigger']"; let element = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue; if (element) { element.scrollIntoView({ block: "center" }); element.click(); console.log("Dropdown clicked"); } else { console.log("Dropdown not found"); }
+
+
